@@ -42,6 +42,7 @@ The configuration space is computed as a standard occupancy grid where every joi
 
 ### Pre-Computed Motion plan
 We computed an example path between a starting and end pose by using the navigation with polytopes tool box [2]. Currently it is not integrated with this repository. Here are two sample paths computed for different occupancy grid resolutions visualized: 
+
 ![Path 1](assets/Trajectory_1.png) ![Path 2](assets/Trajectory_2.jpg)
 
 ## Environment
