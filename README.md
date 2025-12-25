@@ -2,7 +2,7 @@
 A pygame based interactive simulation for a 2D planar robotic manipulator with joint contraints and obstacles. It computes and displays the workspace and configuration space of the robot, side by side, in real-time. You can simulate the motion of the manipulator in the workspace and the configuration space by using key presses to change the current robot configuration and obstacle positions. Joint angle constraints can be changed to visualize the impact on the free configuration space of the robot. The simulation can also be used to compute and display trajectories between robot start and goal poses by using motion planning algorithms that use an occupancy grid.
 ![Robot demo](assets/robot_following_trajectory_2__.gif)
 
-## Simulation Controls:
+## Simulation Controls
 ### Press W/A/S/D: Move robot in workspace and configuration space by changing joint angles. 
 - Simulates collision with obstacle by changing colour of link 
 ![Robot Movement Demo](assets/robot_movement_sim__.gif)
